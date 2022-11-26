@@ -85,6 +85,14 @@ ul {
 .info-size {
   font-size: var(--info-font-size);
 }
+.launch-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
 @media (max-width: 768px) {
   .img-none {
     display: none;
