@@ -59,7 +59,6 @@ ul {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -118,6 +117,9 @@ ul {
   }
   .navigation-links a {
     margin: 15px;
+    padding: 10px 10px;
+  }
+  .launch-link {
     padding: 10px 10px;
   }
 }
