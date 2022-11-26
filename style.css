@@ -2,6 +2,8 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --info-font-size: 20px;
+  --info-bp-font-size: 17px;
 }
 h1,
 h2,
@@ -76,19 +78,49 @@ ul.info {
   list-style: none;
   line-height: 35px;
   padding-left: 0px;
-  font-size: 20px;
+  font-size: var(--info-font-size);
 }
 .pizza-info {
-  font-size: 20px;
+  font-size: var(--info-font-size);
 }
 .a-none {
   text-decoration: none;
 }
 .openweather-link {
-  font-size: 20px;
+  font-size: var(--info-font-size);
 }
 @media (max-width: 768px) {
   .img-none {
     display: none;
+  }
+  .about-img {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    max-width: 70%;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  li {
+    font-size: var(--info-bp-font-size);
+  }
+  .openweather-link {
+    font-size: var(--info-bp-font-size);
+  }
+  .navigation-links a {
+    margin: 15px;
+    padding: 10px 10px;
   }
 }
