@@ -87,18 +87,6 @@ ul {
 .info-size {
   font-size: var(--info-font-size);
 }
-
-@media (max-width: 768px) {
-  .img-none {
-    display: none;
-  }
-  .about-img {
-    display: block;
-    margin: auto;
-    margin-bottom: 25px;
-    max-width: 70%;
-  }
-}
 @media (max-width: 576px) {
   h2 {
     font-size: 30px;
@@ -125,5 +113,8 @@ ul {
     text-align: center;
     padding: 10px 10px;
     margin: 20px;
+  }
+  .img-none {
+    display: none;
   }
 }
