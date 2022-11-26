@@ -41,7 +41,6 @@ ul {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
 }
 .contact-link {
   background: var(--primary-color);
@@ -52,11 +51,15 @@ ul {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
+.launch-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -85,14 +88,7 @@ ul {
 .info-size {
   font-size: var(--info-font-size);
 }
-.launch-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
+
 @media (max-width: 768px) {
   .img-none {
     display: none;
